@@ -44,11 +44,12 @@
 
                 <EditText
                     android:id="@+id/btnnitrogen"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
+                    android:gravity="center"
                     android:inputType="number" />
 
                 <TextView
@@ -63,9 +64,10 @@
 
                 <EditText
                     android:id="@+id/btnphosp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
+                    android:layout_gravity="center"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
                     android:inputType="number" />
@@ -83,9 +85,10 @@
 
                 <EditText
                     android:id="@+id/btnpottasium"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
+                    android:gravity="center"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
                     android:inputType="number" />
@@ -102,9 +105,10 @@
 
                 <EditText
                     android:id="@+id/btnph"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
+                    android:gravity="center"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
                     android:inputType="number" />
@@ -121,8 +125,9 @@
 
                 <EditText
                     android:id="@+id/btnrainfall"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
+                    android:gravity="center"
                     android:layout_marginTop="4dp"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
@@ -141,8 +146,9 @@
 
                 <Spinner
                     android:id="@+id/spinner_indian_state"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="40dp"
+
                     android:background="@drawable/rectangle_shape" />
 
 

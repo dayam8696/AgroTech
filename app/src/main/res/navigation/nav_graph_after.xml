@@ -9,7 +9,17 @@
         android:id="@+id/homeFragment2"
         android:name="com.example.agrotech.Fragments.HomeFragment"
         android:label="HomeFragment"
-        tools:layout="@layout/home_fragment"/>
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment2_to_blogHomeGarden"
+            app:destination="@id/blogHomeGarden" />
+        <action
+            android:id="@+id/action_homeFragment2_to_cashCropFragment"
+            app:destination="@id/cashCropFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_camFragment2"
+            app:destination="@id/camFragment2" />
+    </fragment>
 
     <fragment
         android:id="@+id/userFragment2"
@@ -31,4 +41,14 @@
         android:name="com.example.agrotech.Fragments.ResultScreen"
         android:label="ResultScreen"
         tools:layout="@layout/result_screen_fragment"/>
+    <fragment
+        android:id="@+id/blogHomeGarden"
+        android:name="com.example.agrotech.Fragments.BlogHomeGarden"
+        android:label="BlogHomeGarden"
+        tools:layout="@layout/home_garden"/>
+    <fragment
+        android:id="@+id/cashCropFragment"
+        android:name="com.example.agrotech.Fragments.CashCropFragment"
+        android:label="CashCropFragment"
+        tools:layout="@layout/cash_crop_fragment"/>
 </navigation>
