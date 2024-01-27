@@ -4,13 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.agrotech.databinding.ResultScreenFragmentBinding
+import androidx.navigation.fragment.findNavController
+import com.example.agrotech.R
+import com.example.agrotech.databinding.HomeGardenBinding
 
-class ResultScreen : BaseFragment() {
-    private val binding by lazy {
-        ResultScreenFragmentBinding.inflate(layoutInflater)
-    }
-
+class BlogHomeGarden :BaseFragment() {
+    private val binding by lazy { HomeGardenBinding.inflate(layoutInflater) }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -21,6 +20,9 @@ class ResultScreen : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.textView2.text = CamFragment.cropName
+        binding.btnrotational.setOnClickListener {
+            findNavController().navigate(R.id.action_blogHomeGarden_to_exploreHomeGardenFragment)
+        }
     }
+
 }

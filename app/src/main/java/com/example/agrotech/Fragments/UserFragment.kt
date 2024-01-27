@@ -21,7 +21,7 @@ class UserFragment : BaseFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         return binding.root
     }
 
@@ -73,7 +73,7 @@ class UserFragment : BaseFragment() {
 
                     binding.apply {
                         tvStatus.text = data.weather[0].description
-                        tvWind.text = "${data.wind.speed.toString()} KM/H"
+                        tvWind.text = "${data.wind.speed} KM/H"
                         tvLocation.text = "${data.name}\n${data.sys.country}"
                         tvTemp.text = "${data.main.temp.toInt()} °C"
                         tvFeelsLike.text = "Feels like: ${data.main.feels_like.toInt()}°C"

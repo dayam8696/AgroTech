@@ -4,23 +4,21 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.agrotech.databinding.ResultScreenFragmentBinding
+import com.example.agrotech.databinding.FertilizerResultFragmentBinding
 
-class ResultScreen : BaseFragment() {
-    private val binding by lazy {
-        ResultScreenFragmentBinding.inflate(layoutInflater)
-    }
+class FertilizerResultFragment:BaseFragment() {
+    private val binding by lazy { FertilizerResultFragmentBinding.inflate(layoutInflater) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
+    ): View? {
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.textView2.text = CamFragment.cropName
+        binding.textferresult.text = FertilizerFragment.result
     }
 }
