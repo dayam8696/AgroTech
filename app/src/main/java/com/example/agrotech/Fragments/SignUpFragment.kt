@@ -16,7 +16,7 @@ class SignUpFragment:BaseFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         return binding.root
     }
 
@@ -37,7 +37,7 @@ class SignUpFragment:BaseFragment() {
             if (email.isNotEmpty() && pass.isNotEmpty() && confirmpass.isNotEmpty()) {
                 if (pass == confirmpass) {
                     firebaseAuth.createUserWithEmailAndPassword(email, pass)
-                        .addOnCompleteListener() {
+                        .addOnCompleteListener {
                             if (it.isSuccessful) {
                                 findNavController().navigate(R.id.action_signUpFragment2_to_logInFragment2)
                             } else {

@@ -48,7 +48,11 @@
         android:id="@+id/blogHomeGarden"
         android:name="com.example.agrotech.Fragments.BlogHomeGarden"
         android:label="BlogHomeGarden"
-        tools:layout="@layout/home_garden"/>
+        tools:layout="@layout/home_garden">
+        <action
+            android:id="@+id/action_blogHomeGarden_to_exploreHomeGardenFragment"
+            app:destination="@id/exploreHomeGardenFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cashCropFragment"
         android:name="com.example.agrotech.Fragments.CashCropFragment"
@@ -58,5 +62,19 @@
         android:id="@+id/fertilizerFragment"
         android:name="com.example.agrotech.Fragments.FertilizerFragment"
         android:label="FertilizerFragment"
-        tools:layout="@layout/fertilizer_fragment"/>
+        tools:layout="@layout/fertilizer_fragment">
+        <action
+            android:id="@+id/action_fertilizerFragment_to_fertilizerResultFragment"
+            app:destination="@id/fertilizerResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreHomeGardenFragment"
+        android:name="com.example.agrotech.Fragments.ExploreHomeGardenFragment"
+        android:label="ExploreHomeGardenFragment"
+        tools:layout="@layout/explore_home_garden_fragment"/>
+    <fragment
+        android:id="@+id/fertilizerResultFragment"
+        android:name="com.example.agrotech.Fragments.FertilizerResultFragment"
+        android:label="FertilizerResultFragment"
+        tools:layout="@layout/fertilizer_result_fragment"/>
 </navigation>
