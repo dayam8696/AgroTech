@@ -1,10 +1,10 @@
-# AgroTech
+# AgroTech 🌲🎄🌲
 
 ## Introduction
 
 AgroTech is a revolutionary Android app designed to bridge the gap between farmers and urbanites. It provides a seamless integration of machine learning for crop prediction, fertilizer recommendations, and expert agricultural advice. With a decentralized Web3 network, AgroTech prioritizes security, privacy, and user ownership.
 
-## Features
+## Features 🚀🚀
 
 - **AI Crop Prediction:** Advanced machine learning algorithms for precise crop predictions.
 - **Fertilizer Recommendations:** Personalized suggestions for optimizing fertilizer usage.
