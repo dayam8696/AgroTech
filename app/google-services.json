@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231974362004",
+    "project_id": "agrotech-6a5a3",
+    "storage_bucket": "agrotech-6a5a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231974362004:android:16e5f474c17d5fd3cd0d81",
+        "android_client_info": {
+          "package_name": "com.example.agrotech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbixEGdxvnQ8AB7l-nij5qgHhwW7pysR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
