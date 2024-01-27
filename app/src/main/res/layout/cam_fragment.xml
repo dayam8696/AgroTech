@@ -68,6 +68,7 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
                     android:layout_gravity="center"
+                    android:gravity="center"
                     android:background="@drawable/rectangle_shape"
                     android:hint="Enter the Value (exapmle:50)"
                     android:inputType="number" />

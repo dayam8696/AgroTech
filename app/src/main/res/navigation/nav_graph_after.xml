@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_camFragment2"
             app:destination="@id/camFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_fertilizerFragment"
+            app:destination="@id/fertilizerFragment" />
     </fragment>
 
     <fragment
@@ -51,4 +54,9 @@
         android:name="com.example.agrotech.Fragments.CashCropFragment"
         android:label="CashCropFragment"
         tools:layout="@layout/cash_crop_fragment"/>
+    <fragment
+        android:id="@+id/fertilizerFragment"
+        android:name="com.example.agrotech.Fragments.FertilizerFragment"
+        android:label="FertilizerFragment"
+        tools:layout="@layout/fertilizer_fragment"/>
 </navigation>

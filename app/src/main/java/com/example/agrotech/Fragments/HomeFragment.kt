@@ -31,6 +31,9 @@ class HomeFragment: BaseFragment(){
         binding.btnpredict.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment2_to_camFragment2)
         }
+        binding.btnfertilizer.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment2_to_fertilizerFragment)
+        }
     }
 
 

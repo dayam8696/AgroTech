@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
+    android:background="@drawable/homegarden"
     android:orientation="vertical">
 
     <TextView
@@ -13,19 +13,19 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="Welcome to AGRICULUS"
+        android:text="Welcome to "
         android:textColor="#ffffff"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text=" Agriculture Blogs: "
+        android:text="AGROTECH"
         android:textColor="#FFFFFF"
-        android:textSize="25dp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <GridLayout
@@ -160,7 +160,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/fertlogo"/>
+                    android:background="@drawable/ferttwo"/>
 
                 <TextView
                     android:layout_width="wrap_content"
