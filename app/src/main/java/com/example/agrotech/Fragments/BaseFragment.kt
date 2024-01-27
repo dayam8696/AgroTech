@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.agrotech.databinding.BaseFragmentBinding
 
-class BaseFragment :Fragment() {
+open class BaseFragment :Fragment() {
     private val binding by lazy { BaseFragmentBinding.inflate(layoutInflater) }
     override fun onCreateView(
         inflater: LayoutInflater,

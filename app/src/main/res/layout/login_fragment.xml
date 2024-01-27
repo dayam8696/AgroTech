@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3A4D42"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"/>
+
+
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:hint=" Email"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            android:padding="6dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/rectangle_shape"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/TextPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:hint=" Password"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textStyle="normal"
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rectangle_shape"
+            android:inputType="textPassword" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnSignIn"
+            android:layout_width="190dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="25dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="LOG IN"
+                    android:layout_gravity="center"
+                    android:textColor="#3A4D42"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/Notuser"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:text="Don’t have an account? Sign Up"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
