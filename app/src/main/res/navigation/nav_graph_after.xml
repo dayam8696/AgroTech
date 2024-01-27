@@ -10,4 +10,25 @@
         android:name="com.example.agrotech.Fragments.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/home_fragment"/>
+
+    <fragment
+        android:id="@+id/userFragment2"
+        android:name="com.example.agrotech.Fragments.UserFragment"
+        android:label="UserFragment"
+        tools:layout="@layout/user_fragment"/>
+    <fragment
+        android:id="@+id/camFragment2"
+        android:name="com.example.agrotech.Fragments.CamFragment"
+        android:label="CamFragment"
+        tools:layout="@layout/cam_fragment">
+        <action
+            android:id="@+id/action_camFragment2_to_resultScreen2"
+            app:destination="@id/resultScreen2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultScreen2"
+        android:name="com.example.agrotech.Fragments.ResultScreen"
+        android:label="ResultScreen"
+        tools:layout="@layout/result_screen_fragment"/>
 </navigation>
