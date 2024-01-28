@@ -55,7 +55,7 @@ Android Studio, Kotlin, TensorFlow Lite, Python, Deep Learning, Firebase, Retrof
 
 ![WhatsApp Image 2024-01-28 at 07 06 45_094468a4](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/5783e6a4-e934-4d87-8e60-513d7e585565)
 
-![WhatsApp Image 2024-01-28 at 07 06 48_665c87a5](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/55f99a41-1c77-40b3-aa3c-ee9080f17544)
+![last](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/ea9e6520-83e9-43a2-a7fd-4435244deebc)
 
 ## Usage
 
