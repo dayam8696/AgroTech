@@ -59,9 +59,16 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/homegraf"/>
+                    android:background="@drawable/agroblogfinal"/>
 
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="AgroBlogs"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
 
             </LinearLayout>
@@ -88,12 +95,20 @@
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:background="#D2E3C8">
+                >
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/cropcash"/>
+                    android:background="@drawable/agroconnect"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Agro-Connect"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -160,13 +175,13 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/ferttwo"/>
+                    android:background="@drawable/fertilizericon"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Fertilizer Prediction"
+                    android:text="Riched Fertilizer"
                     android:textSize="15dp"
                     android:textStyle="bold"/>
 

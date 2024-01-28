@@ -57,7 +57,11 @@
         android:id="@+id/cashCropFragment"
         android:name="com.example.agrotech.Fragments.CashCropFragment"
         android:label="CashCropFragment"
-        tools:layout="@layout/cash_crop_fragment"/>
+        tools:layout="@layout/cash_crop_fragment">
+        <action
+            android:id="@+id/action_cashCropFragment_to_last_Fragment"
+            app:destination="@id/last_Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/fertilizerFragment"
         android:name="com.example.agrotech.Fragments.FertilizerFragment"
@@ -77,4 +81,9 @@
         android:name="com.example.agrotech.Fragments.FertilizerResultFragment"
         android:label="FertilizerResultFragment"
         tools:layout="@layout/fertilizer_result_fragment"/>
+    <fragment
+        android:id="@+id/last_Fragment"
+        android:name="com.example.agrotech.Fragments.Last_Fragment"
+        android:label="Last_Fragment"
+        tools:layout="@layout/last_fragment"/>
 </navigation>
