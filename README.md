@@ -31,6 +31,8 @@ Android Studio, Kotlin, TensorFlow Lite, Python, Deep Learning, Firebase, Retrof
 
 ## Work Flow of our AgroTech App
 
+![WhatsApp Image 2024-01-28 at 07 20 43_4566c851](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/32400f74-36fa-445c-b4ec-1c13c04daf0d)
+
 ![WhatsApp Image 2024-01-28 at 07 06 45_fa79c559](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/733bba43-0a7a-4a15-b0ef-aa1d9c240986)
 
 ### Crop Prediction
