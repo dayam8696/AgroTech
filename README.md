@@ -57,6 +57,10 @@ Android Studio, Kotlin, TensorFlow Lite, Python, Deep Learning, Firebase, Retrof
 
 ![last](https://github.com/AmeenUrRehman/AgroTech/assets/83868776/ea9e6520-83e9-43a2-a7fd-4435244deebc)
 
+## Demo Video 
+
+YouTube Video Link - https://youtu.be/-Cvif-Fvlqk 
+
 ## Usage
 
 1. Open the AgroTech app on your Android device.
